@@ -42,9 +42,9 @@ body {
     flex-direction: column;
 }
 main {
-    display: flex
+    display: flex;
     flex-direction : row;
-    flex: auto
+    flex: auto;
 }
 blockquote, q {
 	quotes: none;
@@ -64,12 +64,16 @@ table {
 
 body {
 	font-family: 'Josefin Sans', serif;
-	color: rgba(0, 0, 0, 0.8);
+	color: rgba(233, 48, 48, 0.8);
 }
 h1, h2, h3, h4, h5, h6, header {
 	font-family: 'Yeseva One', sans-serif;
 }
 article {
+	flex: 2;
+	overflow-y: auto;
+	background-color: rgba(111, 126, 148, 0.9);
+	color:black
 }
 header {
 	border-bottom: 1px solid rgb(221,221,221);
@@ -80,6 +84,8 @@ header a {
 }
 aside {
 	background: #FAFAFA;
+	flex: 1;
+	overflow-y: auto;
 }
 aside p {
 	border: 1px solid #bbb;
